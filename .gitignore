@@ -1,0 +1,12 @@
+# 开发/测试产物（非站点运行所需）
+shots/
+index_raw.html
+server.py
+build_standalone.py
+test_all.js
+test_mobile.js
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+*.log
