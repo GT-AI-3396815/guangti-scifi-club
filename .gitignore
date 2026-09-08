@@ -10,3 +10,5 @@ test_mobile.js
 .DS_Store
 Thumbs.db
 *.log
+test_gtx.js
+dump_content.js
