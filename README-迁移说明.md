@@ -35,7 +35,21 @@ React 19 + React Router 7.18 + GSAP + TailwindCSS，共 19 个 TSX 文件：
 - 首页视频可播放（readyState 4），全部图片 0 损坏
 - 已知特性：区块内容带 GSAP 滚动入场动画，需滚动到视口才渐显（原站行为，非 bug）
 
+## 已部署（GitHub Pages）
+
+- **在线地址**：https://gt-ai-3396815.github.io/guangti-scifi-club/
+- **仓库**：https://github.com/GT-AI-3396815/guangti-scifi-club （分支 `main`，GitHub Pages 源 = main 根目录）
+- **更新方式**：修改文件后 `git add -A && git commit && git push`，约 1 分钟自动重新构建发布
+- **推送命令**（本机代理环境，需显式代理 + openssl 后端 + 禁用 GCM 避免挂起）：
+  ```bash
+  PROXY="http://127.0.0.1:57263"
+  CA="C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt"
+  TOKEN=$(printf "protocol=https\nhost=github.com\n" | git-credential-manager.exe get | awk -F= '/^password=/{print $2}')
+  git -c "http.proxy=$PROXY" -c http.sslBackend=openssl -c "http.sslCAInfo=$CA" -c credential.helper= \
+    push "https://GT-AI-3396815:$TOKEN@github.com/GT-AI-3396815/guangti-scifi-club.git" main
+  ```
+
 ## 注意
 
 - 字体（Orbitron/Rajdhani/Noto Sans SC 等）走 fonts.loli.net 在线加载，离线时回退系统字体
-- 如需部署上线，整个目录可直接静态部署（hash 路由无需服务器回退配置）
+- 已部署为静态站点，hash 路由无需服务器回退配置，手机端/子路径访问均不会 404
