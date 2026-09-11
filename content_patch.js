@@ -162,8 +162,80 @@
   + '.gtx-modal-foot b{color:rgba(249,211,66,.7);font-weight:600}'
   + '.gtx-reveal{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.2,.6,.2,1),transform .9s cubic-bezier(.2,.6,.2,1)}'
   + '.gtx-reveal.gtx-in{opacity:1;transform:none}'
+  + '.gtx-tier{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}'
+  + '.gtx-tier-card{position:relative;padding:30px 26px;border:1px solid rgba(249,211,66,.16);'
+  + 'border-radius:5px;background:rgba(255,255,255,.025);display:block;'
+  + 'transition:border-color .4s,transform .4s,box-shadow .4s}'
+  + '.gtx-tier-card:hover{border-color:rgba(249,211,66,.5);transform:translateY(-4px);'
+  + 'box-shadow:0 20px 60px -20px rgba(249,211,66,.18)}'
+  + '.gtx-tier-hot{border-color:rgba(167,139,250,.5)}'
+  + '.gtx-tier-badge{position:absolute;top:-12px;right:18px;padding:4px 14px;border-radius:99px;'
+  + 'background:linear-gradient(90deg,#a78bfa,#f9d342);color:#0a0a10;font-family:Rajdhani,sans-serif;'
+  + 'font-size:11px;font-weight:700;letter-spacing:.2em}'
+  + '.gtx-tier-name{font-family:"Noto Serif SC",serif;font-size:19px;font-weight:600;color:#fff;letter-spacing:.06em}'
+  + '.gtx-tier-en{font-family:Rajdhani,sans-serif;font-size:11px;letter-spacing:.25em;'
+  + 'color:rgba(167,139,250,.85);text-transform:uppercase;margin-top:4px}'
+  + '.gtx-tier-price{margin:18px 0 6px;font-family:Orbitron,sans-serif;font-size:30px;color:#f9d342}'
+  + '.gtx-tier-price span{font-size:13px;color:rgba(255,255,255,.4);letter-spacing:.1em}'
+  + '.gtx-tier-pos{color:rgba(255,255,255,.55);font-size:13px;font-family:"Noto Sans SC",sans-serif;font-weight:300}'
+  + '.gtx-tier-fit{margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,.08);'
+  + 'font-size:12.5px;color:rgba(255,255,255,.5);line-height:1.85;'
+  + 'font-family:"Noto Sans SC",sans-serif;font-weight:300}'
+  + '.gtx-tier-fit b{color:rgba(249,211,66,.85);font-weight:600}'
+  + '.gtx-cmp-wrap{margin-top:40px;overflow-x:auto;-webkit-overflow-scrolling:touch}'
+  + '.gtx-cmp{width:100%;border-collapse:collapse;min-width:640px}'
+  + '.gtx-cmp th,.gtx-cmp td{padding:13px 16px;text-align:center;border:1px solid rgba(255,255,255,.07);'
+  + 'font-size:13px;color:rgba(255,255,255,.62);font-family:"Noto Sans SC",sans-serif;font-weight:300}'
+  + '.gtx-cmp th{font-family:Rajdhani,sans-serif;font-size:12px;letter-spacing:.2em;color:#f9d342;'
+  + 'text-transform:uppercase;background:rgba(249,211,66,.05)}'
+  + '.gtx-cmp td:first-child,.gtx-cmp th:first-child{text-align:left;color:rgba(255,255,255,.78)}'
+  + '.gtx-cmp td b{color:#f9d342;font-weight:600}'
+  + '.gtx-cmp .no{color:rgba(255,255,255,.22)}'
+  + '.gtx-chat{max-width:720px;margin:0 auto;display:grid;gap:14px}'
+  + '.gtx-msg{max-width:86%;padding:16px 20px;border-radius:5px;font-size:13.5px;line-height:1.9;'
+  + 'font-family:"Noto Sans SC",sans-serif;font-weight:300}'
+  + '.gtx-msg-u{justify-self:end;background:rgba(167,139,250,.1);border:1px solid rgba(167,139,250,.3);'
+  + 'color:rgba(255,255,255,.85)}'
+  + '.gtx-msg-a{justify-self:start;background:rgba(249,211,66,.05);border:1px solid rgba(249,211,66,.22);'
+  + 'color:rgba(255,255,255,.72)}'
+  + '.gtx-msg-a b{color:#f9d342;font-weight:600}'
+  + '.gtx-msg-tag{display:block;font-family:Rajdhani,sans-serif;font-size:10px;letter-spacing:.25em;'
+  + 'color:rgba(255,255,255,.35);margin-bottom:8px;text-transform:uppercase}'
+  + '.gtx-testi{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}'
+  + '.gtx-testi-card{padding:28px;border:1px solid rgba(255,255,255,.08);border-radius:5px;background:rgba(255,255,255,.02)}'
+  + '.gtx-testi-card p{font-family:"Noto Serif SC",serif;color:rgba(255,255,255,.8);font-size:15px;'
+  + 'line-height:2;margin:0 0 18px;letter-spacing:.03em}'
+  + '.gtx-testi-who{font-family:Rajdhani,sans-serif;font-size:12px;letter-spacing:.15em;'
+  + 'color:rgba(255,255,255,.45);text-transform:uppercase}'
+  + '.gtx-testi-who b{color:#f9d342;font-weight:600}'
+  + '.gtx-declare{border:1px solid rgba(167,139,250,.3);border-left:3px solid #a78bfa;'
+  + 'background:rgba(167,139,250,.05);padding:34px 38px;border-radius:5px}'
+  + '.gtx-declare p{color:rgba(255,255,255,.66);font-size:14px;line-height:2.05;margin:0 0 14px;'
+  + 'font-family:"Noto Sans SC",sans-serif;font-weight:300}'
+  + '.gtx-declare p b{color:rgba(196,181,253,1);font-weight:600}'
+  + '.gtx-declare p:last-child{margin-bottom:0}'
+  + '.gtx-fab{position:fixed;right:22px;bottom:26px;z-index:99980;width:54px;height:54px;border-radius:50%;'
+  + 'border:1px solid rgba(249,211,66,.45);background:rgba(8,8,12,.88);color:#f9d342;font-size:22px;'
+  + 'cursor:pointer;box-shadow:0 12px 40px -8px rgba(0,0,0,.7);transition:border-color .3s,transform .3s;'
+  + 'display:flex;align-items:center;justify-content:center}'
+  + '.gtx-fab:hover{border-color:#f9d342;transform:translateY(-3px)}'
+  + '.gtx-s-in{width:100%;padding:14px 18px;border-radius:4px;border:1px solid rgba(249,211,66,.3);'
+  + 'background:rgba(255,255,255,.04);color:#fff;font-size:14px;font-family:"Noto Sans SC",sans-serif;'
+  + 'outline:none;margin-bottom:18px}'
+  + '.gtx-s-in::placeholder{color:rgba(255,255,255,.3)}'
+  + '.gtx-s-in:focus{border-color:rgba(249,211,66,.6)}'
+  + '.gtx-s-res{display:grid;gap:8px;max-height:52vh;overflow-y:auto}'
+  + '.gtx-s-item{padding:14px 18px;border:1px solid rgba(255,255,255,.08);border-radius:4px;cursor:pointer;'
+  + 'transition:border-color .3s;background:rgba(255,255,255,.02)}'
+  + '.gtx-s-item:hover{border-color:rgba(249,211,66,.5)}'
+  + '.gtx-s-item .cat{font-family:Rajdhani,sans-serif;font-size:11px;letter-spacing:.2em;'
+  + 'color:rgba(167,139,250,.85);text-transform:uppercase}'
+  + '.gtx-s-item .ti{font-family:"Noto Serif SC",serif;font-size:15px;color:#fff;margin-top:4px;font-weight:600}'
+  + '.gtx-s-empty{color:rgba(255,255,255,.4);font-size:13px;text-align:center;padding:30px 0;'
+  + 'font-family:"Noto Sans SC",sans-serif}'
   + '@media(max-width:900px){'
   + '.gtx-sec{padding:72px 18px}'
+  + '.gtx-tier{grid-template-columns:repeat(2,1fr)}'
   + '.gtx-grid-3,.gtx-grid-4{grid-template-columns:repeat(2,1fr)}'
   + '.gtx-grid-2{grid-template-columns:1fr}'
   + '.gtx-laws{grid-template-columns:1fr;gap:0}'
@@ -181,6 +253,10 @@
   + '.gtx-timeline{padding-left:26px}'
   + '.gtx-md-kv{grid-template-columns:1fr;gap:2px 0}'
   + '.gtx-md-kv i{margin-top:10px}'
+  + '.gtx-tier{grid-template-columns:1fr}'
+  + '.gtx-testi{grid-template-columns:1fr}'
+  + '.gtx-msg{max-width:94%}'
+  + '.gtx-fab{right:14px;bottom:16px;width:48px;height:48px;font-size:19px}'
   + '}';
 
   /* ================= 小工具 ================= */
@@ -252,6 +328,93 @@
   /* ================= 档案详情注册表 ================= */
   var DET = {};
 
+  /* ---------- 殿堂作品档案（与 React 展品图通过 alt 接线） ---------- */
+  DET['art-01'] = {
+    e:'Collection · 01 · Digital Painting', t:'《星际之门》· 陈星光', l:'会长的代表作，也是殿堂的镇馆之作——一扇还没打开、但已经开始发光的门。',
+    k:[['艺术家','陈星光 · 联合创始人 · 会长'],['媒介','数字绘画 · 4K 原始分辨率'],['入藏','殿堂常设 · 限量版画 200 版'],['创作年份','2019']],
+    b: h3('创作自述')
+    + p('「门为什么不能是一个圆？因为圆是闭合的，门必须是『将开未开』的那一刻。我画了七稿，全部毁掉，直到第八稿把光源藏进门缝里——先决定光从哪里来，再决定颜色，这是第一律。」')
+    + h3('殿堂评语')
+    + p('全作只有一道主光源，却让人确信门后有一整个空间。负空间承担了 90% 的叙事——它是第二律最好的教科书。')
+  };
+
+  DET['art-02'] = {
+    e:'Collection · 02 · 3D Art', t:'《光体觉醒》· 林月华', l:'档案组首席的 3D 作品：一具正在「点亮」的人体光场，从足底向上，像日出倒放。',
+    k:[['艺术家','林月华 · 联合创始人 · 档案组首席'],['媒介','3D 艺术 · 程序化光场渲染'],['入藏','殿堂常设'],['创作年份','2021']],
+    b: h3('创作自述')
+    + p('「我把 30 天冥想监测的数据曲线直接喂给了渲染器——亮起的位置不是美感决定的，是数据决定的。你说这是艺术还是图表？我说，是图表终于诚实的那天。」')
+    + h3('殿堂评语')
+    + p('色温从足部的暖橙过渡到颅顶的冷白——暖色承载记忆，冷色承载预知，第四律的满分答卷。')
+  };
+
+  DET['art-03'] = {
+    e:'Collection · 03 · Concept Art', t:'《昴宿星记忆》· 张天宇', l:'七姊妹星团的「记忆显影」：画面里没有一颗星是亮的，亮的是你回头看它们的那个动作。',
+    k:[['艺术家','张天宇 · 会员创作者 · 长老'],['媒介','概念艺术 · 数字手绘'],['入藏','殿堂常设'],['创作年份','2022']],
+    b: h3('创作自述')
+    + p('「我按照真实星图排布昴宿七星，然后在每颗星的位置留下空缺。画的是星，成的是缺——留白是邀请，我想邀请观众把记忆补进去。」')
+    + h3('殿堂评语')
+    + p('与「星际文明图谱」的昴宿观测档案对照观看，会明白为什么档案组坚持「先学会真实地看见，再谈论讯息」。')
+  };
+
+  DET['art-04'] = {
+    e:'Collection · 04 · Mixed Media', t:'《远古讯息》· 王艺凡', l:'混合媒介拼贴：纳斯卡地画、哥贝克力浮雕与三星堆金箔的拓扑重叠。',
+    k:[['艺术家','王艺凡 · 会员创作者 · 长老'],['媒介','混合媒介 · 拼贴与数字合成'],['入藏','殿堂常设'],['创作年份','2023']],
+    b: h3('创作自述')
+    + p('「三段相隔一万年的图案叠在同一平面时，出现了一个谁也没画过的公共结构。我没发明它，我只是让它们碰面。」')
+    + h3('殿堂评语')
+    + p('材料各自带着脾气，作者没有征服任何一种——第六律「材料会呼吸」的示范之作。与「三大未解悬案」档案对照阅读更佳。')
+  };
+
+  DET['art-05'] = {
+    e:'Collection · 05 · Digital Sculpture', t:'《能量晶体》· 李星辰', l:'一颗按驻波方程生长的数字晶体：每一次旋转，晶面数量都恰好是 2 的幂。',
+    k:[['艺术家','李星辰 · 会员创作者 · 觉醒者'],['媒介','数字雕塑 · 参数化建模'],['入藏','殿堂常设'],['创作年份','2023']],
+    b: h3('创作自述')
+    + p('「对称即宇宙常数。我放弃手调，把外形完全交给方程—— ugliness 出现时我知道是方程错了，而不是我的审美错了。」')
+    + h3('殿堂评语')
+    + p('第三律「对称即宇宙常数」的严谨实证。转印为实体雕塑后陈列于上海光体大厦大堂。')
+  };
+
+  DET['art-06'] = {
+    e:'Collection · 06 · Motion', t:'《维度裂缝》· 赵光明', l:'一部 9 分钟的动态影像：裂缝每「开合」一次，画面的物理法则就改写一条。',
+    k:[['艺术家','赵光明 · 会员创作者 · 长老'],['媒介','动态影像 · 9 分钟循环'],['入藏','殿堂常设 · 展厅 B'],['创作年份','2024']],
+    b: h3('创作自述')
+    + p('「第一遍看是特效，第三遍看是规则被逐条撕掉的过程。我想要的不止是震惊——是震惊退潮后那个让人发冷的提问：如果规则可以被改写，『这里』的规则凭什么例外？」')
+    + h3('殿堂评语')
+    + p('观者完成作品——第七律。每个人在第九分钟看到的结尾都不一样，殿堂不负责统一答案。')
+  };
+
+  DET['art-07'] = {
+    e:'Collection · 07 · Digital Collectible', t:'《光体图腾 #001》· 收藏级数字藏品', l:'殿堂藏品序列的开山之作，俱乐部视觉体系的原点图腾。',
+    k:[['编号','#001 · 序列首发'],['形式','收藏级数字藏品 · 链上确权'],['收藏门槛','会员中心 · 智造商城'],['首展','2023 殿堂开幕展']],
+    b: h3('藏品档案')
+    + p('「光体图腾」几何体系的第一件完整呈现——殿堂金色（#F9D342）与维度紫（#A78BFA）的双色秩序即由此定调。全站 favicon、会员证书与数字身份标识均衍生自这件原点。')
+    + note('<b>收藏说明</b>：数字藏品以唯一编号确权，价格与兑换规则以会员中心「智造商城」实时公示为准。')
+  };
+
+  DET['art-08'] = {
+    e:'Collection · 08 · Digital Collectible', t:'《能量共鸣 #012》· 收藏级数字藏品', l:'十二个同心驻波环的共鸣瞬间——殿堂藏品序列中「频率」主题的代表作。',
+    k:[['编号','#012 · 频率主题'],['形式','收藏级数字藏品 · 链上确权'],['收藏门槛','会员中心 · 智造商城'],['首展','2024 丰收季成果展']],
+    b: h3('藏品档案')
+    + p('以 432Hz 驻波数据为骨架生成。作者如实标注：432Hz 的「特殊性」在科学界尚无共识——作品呈现的是数据本身的美，不替科学下结论。这份诚实正是它入藏的理由。')
+    + note('<b>收藏说明</b>：价格与兑换规则以会员中心「智造商城」实时公示为准。')
+  };
+
+  DET['art-09'] = {
+    e:'Collection · 09 · Digital Collectible', t:'《远古回响 #023》· 收藏级数字藏品', l:'吉萨大走廊七段腔体的声学模型显影——「回响」主题藏品，与遗址档案一一对应。',
+    k:[['编号','#023 · 回响主题'],['形式','收藏级数字藏品 · 链上确权'],['收藏门槛','会员中心 · 智造商城'],['首展','2024 冬季会员展']],
+    b: h3('藏品档案')
+    + p('七段腔体的实测声学数据被转译为明度阶梯：胡夫墓室所在的那一段最亮。考古学界尚未就大走廊的声学功能达成共识——这件藏品给出的不是答案，是「值得一问」的视觉论据。')
+    + note('<b>收藏说明</b>：价格与兑换规则以会员中心「智造商城」实时公示为准。')
+  };
+
+  DET['art-10'] = {
+    e:'Collection · 10 · Digital Collectible', t:'《星际之门 #007》· 收藏级数字藏品', l:'《星际之门》绘画的第七号衍生变体——门开了一道更宽的缝。',
+    k:[['编号','#007 · 之门系列衍生'],['形式','收藏级数字藏品 · 链上确权'],['收藏门槛','会员中心 · 智造商城'],['首展','2025 星际文明年特展']],
+    b: h3('藏品档案')
+    + p('原作里「将开未开」的门缝，在第七号变体中宽了一线。作者陈星光在系列说明中写道：「门不会退回原样。每一年重画一次，直到画不动为止——这系列会陪着俱乐部一起变老。」')
+    + note('<b>收藏说明</b>：价格与兑换规则以会员中心「智造商城」实时公示为准。')
+  };
+
   /* ---------- 首页 · 听 ---------- */
   DET['home-hear'] = {
     e:'Frequency Radio · Listening Guide', t:'光体频率电台 · 收听与动手手册', l:'电台不只是「内容」，是一套今天就能开始的接收训练。从免费在线射电望远镜到桌面频谱软件，全部真实可用。',
@@ -314,14 +477,14 @@
   DET['home-meet'] = {
     e:'Offline Calendar · 2026', t:'2026 线下活动日历（可直接报名）', l:'从每周固定的线上迎新营到一年一度的星际文明大会，全年日程一次看清。报名入口统一在会员中心后台「活动」板块。',
     k:[['固定节奏','每周四迎新营 · 每月首个周五解码夜'],['年度两场','春分大会（3 月）· 星际文明大会（11 月）'],['巡回城市','深圳、成都、西安、杭州、武汉、长沙']],
-    b: h3('全年日历')
+    b: h3('全年日历（状态截至 2026 年 9 月）')
     + ul([
-      '<b>每周四 20:00</b> —— 线上迎新冥想营（免费，新会员优先席位）。',
-      '<b>每月第一个周五 19:30</b> —— 解码夜线上直播（会员专属，见解码室档案）。',
-      '<b>2026-03-20 春分大会</b> —— 上海光体大厦，全天三场：年度研究发布、千人同步冥想、新会员见面。',
-      '<b>2026-04 至 2026-09</b> —— 城市巡回沙龙：深圳（4 月）、成都（5 月）、西安（6 月）、杭州（7 月）、武汉（8 月）、长沙（9 月），每城一场，本地会员免费。',
-      '<b>2026-10 秋季考察团</b> —— 埃及线（吉萨、卢克索、丹德拉），10 天 9 夜，星际长老以上等级可报名。',
-      '<b>2026-11-21 星际文明大会</b> —— 上海国际会议中心，全员可参加，含闭门研究员环节。'
+      '<b>每周四 20:00</b> —— 线上迎新冥想营（免费，新会员优先席位）。<b>进行中，本周四即有</b>。',
+      '<b>每月第一个周五 19:30</b> —— 解码夜线上直播（会员专属，见解码室档案）。<b>进行中</b>。',
+      '<b>2026-03-20 春分大会</b> —— 上海光体大厦，全天三场。<b>已举办</b>，全程回放与图记见会员中心「活动回顾」。',
+      '<b>2026-04 至 2026-09</b> —— 城市巡回沙龙：深圳（4 月）、成都（5 月）、西安（6 月）、杭州（7 月）、武汉（8 月）、长沙（9 月中旬）。<b>六城均已收官</b>，累计 2,900+ 人次到场。',
+      '<b>2026-10 秋季考察团</b> —— 埃及线（吉萨、卢克索、丹德拉），10 天 9 夜，星际长老以上等级可报名。<b>报名截止 9 月 30 日</b>。',
+      '<b>2026-11-21 星际文明大会</b> —— 上海国际会议中心，全员可参加，含闭门研究员环节。<b>报名开启</b>。'
     ])
     + h3('报名方式')
     + ul([
@@ -847,6 +1010,138 @@
     ])
   };
 
+  /* ---------- 会员等级 · 完整权益档案 ---------- */
+  DET['tier-1'] = {
+    e:'Tier 01 · Interstellar Walker', t:'星际行者 · 完整权益档案', l:'¥3,333 / 年。星际文明入门觉醒席位——风险最低的起点，把「听、看、逛」先建立起来。',
+    k:[['年费','¥3,333 / 年'],['定位','入门觉醒席位'],['退款','入会 7 天内无理由全额退款'],['升级','随时升级，差价按剩余天数自动折算']],
+    b: h3('包含权益')
+    + ul([
+      '光体文明智能体 · 基础版全年使用权（24 小时宇宙观答疑 + 每日能量指引）。',
+      '光体智造商城全场 9 折（能量饰品、文创书籍、音声课程全涵盖）。',
+      '全站深度内容永久阅览（星际文明研究、史前文明解码、宇宙观专栏持续更新）。',
+      '全年线上公开讲座免费参与（每周「星际解码」直播 + 月度主题分享会）。',
+      '全国星际行者社区准入资格（同频圈层深度链接 + 资源对接）。',
+      '每月《星际文明电子通讯》专属投递。',
+      '专属星际行者数字身份证书。',
+      '年度《地球文明升维白皮书》电子版免费领取。',
+      '全国城市线下沙龙优先报名权。'
+    ])
+    + h3('适合谁')
+    + p('想先安静观察、把信息底座搭起来的人。你还在判断这里值不值得长期投入——行者档让你用最低成本把电台、片库、讲座、社群全部用起来，做出判断需要的一切都在里面。')
+    + note('<b>学院权限</b>：星际行者可试听研究学院第一阶前 3 讲。想完整上三阶课程、做练习、进档案组，请看「星际长老」。')
+  };
+
+  DET['tier-2'] = {
+    e:'Tier 02 · Interstellar Elder', t:'星际长老 · 完整权益档案', l:'¥9,999 / 年。深度共创核心圈层 · 全功能解锁——最多会员选择的档位。',
+    k:[['年费','¥9,999 / 年'],['定位','深度共创核心圈层'],['退款','入会 7 天内无理由全额退款'],['升级','含行者全部权益，差价自动折算']],
+    b: h3('包含权益')
+    + ul([
+      '解锁光体文明智能体全部高级功能（个性化意识解读 + 专属内容创作 + 文明推演）。',
+      '光体智造商城全场 7 折。',
+      '完整享有「星际行者」全部等级权益。',
+      '全年线下主题工作坊免费参与（光体绘画、能量音疗、符号创作、陨石鉴赏，任选 4 场）。',
+      '《光体激活冥想》系列深度课程全套解锁（432Hz 音流配套体系化练习）。',
+      '研究学院三阶课程全开放（行者仅试听 3 讲）。',
+      '会员专属闭门活动准入（季度长老私享会 + 特邀嘉宾深度对谈）。',
+      '官方艺术平台个人作品展示席位（创作纳入光体文明官方艺术体系）。',
+      '专属星际长老核心社群（高端人脉资源精准对接）。',
+      '光体文明共创计划优先参与权（内容、艺术、商业项目联合共创）。',
+      '年度光体文明大会免费参会资格。'
+    ])
+    + h3('适合谁')
+    + p('已经确定要深入实践的人：想完整上完三阶课程、每周真的在做冥想与档案记录、想在线下认识同频者、甚至想把自己的创作挂进殿堂。长老档是「从观众变成参与者」的那道门。')
+    + note('<b>提醒</b>：「星际觉醒 Retreat」闭门营与理事会列席资格，仅对升级满 90 天的会员开放报名——早升级早起算。')
+  };
+
+  DET['tier-3'] = {
+    e:'Tier 03 · Luminary Awakened', t:'光体觉醒者 · 完整权益档案', l:'¥33,333 / 年。顶级觉醒之路 · 文明共建者——把俱乐部当作长期成长主线的极少数人。',
+    k:[['年费','¥33,333 / 年'],['定位','文明共建者'],['退款','入会 7 天内无理由全额退款'],['含全部','长老 + 行者权益不重复计费']],
+    b: h3('包含权益')
+    + ul([
+      '光体文明智能体全功能终身解锁 + 专属定制训练。',
+      '光体智造商城全场 5 折。',
+      '「光体师培养计划」全程陪跑（系统化成长路径 + 俱乐部认证资质）。',
+      '完整享有「星际长老」全部等级权益。',
+      '创始人 1 对 1 年度专属导师辅导（2 次深度私享交流 + 成长路径定制）。',
+      '《星际通信》深度闭门课程全套解锁（核心宇宙观体系完整交付）。',
+      'UFO 与史前文明探索团优先报名。',
+      '年度限定光体文明数字藏品空投（唯一编号 + 专属身份标识）。',
+      '年度「星际觉醒 Retreat」闭门修行营专属席位（5 天 4 夜沉浸式升维）。',
+      '光体文明理事会列席资格（参与俱乐部重大决策与项目研讨）。',
+      '光体系列实体项目优先参与权。',
+      '全年所有线下活动免费（工作坊、大会、考察团全品类）。',
+      '光体师专属陨石徽章。'
+    ])
+    + h3('适合谁')
+    + p('把「意识成长 + 星际文明研究」当成未来十年主线的人。你不止想学，还想共建——参与项目决策、孵化共创、乃至与创始团队并肩工作。名额按季度控制，保持圈层浓度。')
+    + note('<b>诚实建议</b>：如果你尚不确定长期投入，请从行者或长老开始。觉醒者的价值在长期复利，冲动升级反而是浪费。')
+  };
+
+  /* ---------- 智造商城 · 四大品类 ---------- */
+  DET['shop-1'] = {
+    e:'Store · Category 01', t:'能量饰品', l:'以「光体图腾」几何体系为设计语言的饰物线：材质与工艺对标轻奢，能量坐标镌刻于内壁。',
+    k:[['价格带','¥280 至 ¥3,800'],['材质','925 银 · 黄铜镀金 · 天然水晶'],['折扣','行者 9 折 · 长老 7 折 · 觉醒者 5 折'],['入口','会员中心 → 智造商城']],
+    b: h3('本季在售')
+    + ul([
+      '《梅尔卡巴星四面体》吊坠——17 组呼吸练习的随身锚点。',
+      '《光体图腾 #001》复刻戒指——殿堂同名藏品的首饰化版本。',
+      '《频率校准》水晶钵套装（432Hz 定频）——配桌面练习手册。'
+    ])
+    + note('饰品不承诺任何「功效」——它是练习的锚点与身份标识，仅此而已。这是我们与其他「能量产品」的根本区别。')
+  };
+
+  DET['shop-2'] = {
+    e:'Store · Category 02', t:'文创书籍', l:'俱乐部研究档案的出版物线，从入门手册到年度白皮书，全部可独立阅读。',
+    k:[['价格带','¥68 至 ¥480'],['形态','平装 · 精装 · 电子版'],['折扣','行者 9 折 · 长老 7 折 · 觉醒者 5 折'],['入口','会员中心 → 智造商城']],
+    b: h3('书目一览')
+    + ul([
+      '《新会员手册》——90 天成长路径的操作说明书（新会员免费）。',
+      '《地球文明升维白皮书》——年度研究发布，2035 工作节点的完整论证框架。',
+      '《候选信号排除清单 v7》——档案组方法论工具书，研究学院第三阶教材。'
+    ])
+  };
+
+  DET['shop-3'] = {
+    e:'Store · Category 03', t:'音声课程', l:'432Hz 校准、梅尔卡巴引导、水晶钵音疗——全部音频由学院教研组录制并标注科学边界。',
+    k:[['价格带','¥99 至 ¥680'],['形态','单轨 · 系列包 · 年度订阅'],['折扣','行者 9 折 · 长老 7 折 · 觉醒者 5 折'],['入口','会员中心 → 智造商城']],
+    b: h3('在售系列')
+    + ul([
+      '《432Hz 校准音轨》全集——第二阶课程配套，含静息心率自测引导。',
+      '《17 组呼吸》全程引导版——梅尔卡巴练习逐段口令。',
+      '《睡前 90 秒》梦境记录暗示音频——梦境协议配套。'
+    ])
+  };
+
+  DET['shop-4'] = {
+    e:'Store · Category 04', t:'艺术衍生品', l:'殿堂在展作品的限量衍生：版画、织物与联名器物，每件附殿堂收藏编号。',
+    k:[['价格带','¥380 至 ¥6,800'],['形态','限量版画 · 织物 · 联名器物'],['折扣','行者 9 折 · 长老 7 折 · 觉醒者 5 折'],['入口','会员中心 → 智造商城']],
+    b: h3('本季衍生')
+    + ul([
+      '《星际之门》限量版画（编号 200 版）——附陈星光签名与殿堂收藏证书。',
+      '《负空间星云》织物挂毯——第七律「留白是邀请」的实物演绎。'
+    ])
+    + note('衍生品收入的一部分注入「会员作品孵化基金」——你买走的每件衍生品，都在资助下一位会员创作者。')
+  };
+
+  /* ---------- 创始人档案 ---------- */
+  DET['found-1'] = {
+    e:'Founder · 01', t:'陈星光 · 联合创始人 / 会长', l:'实证路线的定调者：先测量，再诠释。',
+    k:[['身份','联合创始人 · 会长'],['背景','天体物理转向意识研究'],['主持','11 次全球遗址考察 · 年度白皮书主笔'],['在展作品','《星际之门》· 数字绘画']],
+    b: h3('履历')
+    + p('2010 年与林月华在上海一间茶室发起「光体读书会」，确立「以科学语言诠释灵性体验」的初始立场。2014 年带队完成首次全球遗址考察，采集的实测数据奠定了俱乐部「实证派」路线。此后主持 11 次考察，主笔历年《地球文明升维白皮书》。')
+    + h3('创作一面')
+    + p('殿堂在展作品《星际之门》的作者。他坚持「研究者也要亲手做表达」——艺术与档案在他这里是一体两面。')
+  };
+
+  DET['found-2'] = {
+    e:'Founder · 02', t:'林月华 · 联合创始人 / 档案组首席', l:'方法论的建筑师：三源交叉验证与排除清单出自她手。',
+    k:[['身份','联合创始人 · 档案组首席'],['背景','心理学与语言学'],['提出','三源交叉验证法 · 《候选信号排除清单 v7》'],['在展作品','《光体觉醒》· 3D 艺术']],
+    b: h3('履历')
+    + p('负责把「玄妙体验」翻译成可检验的流程：三源交叉验证法、90 秒梦境协议、双盲心传评分表都由她主导设计。研究学院三阶 36 讲的课程框架同样出自她的教研组。')
+    + h3('她的一句话')
+    + p('「共鸣不是证据，交叉才是。」——这句被印在档案组每一份工作手册的扉页。')
+  };
+
   /* ---------- 90 天 · 五站清单 ---------- */
   DET['d90-1'] = {
     e:'Day 1 · Checklist', t:'DAY 1 激活 · 今日清单', l:'万物就绪的一天。照着清单做完，大约 40 分钟。',
@@ -920,6 +1215,7 @@
       '<b>4 月</b>——深圳沙龙；<b>5 月</b>——成都沙龙。',
       '<b>贯穿全季</b>——梅尔卡巴训练营第 12 期（线上 8 周）。'
     ])
+    + note('<b>本季状态</b>：已收官。大会回放、训练营讲义与两场沙龙图记，见会员中心「活动回顾」。')
   };
 
   DET['season-2'] = {
@@ -931,6 +1227,7 @@
       '<b>7 月</b>——杭州沙龙；年度艺术联展征稿截止。',
       '<b>8 月</b>——武汉沙龙；会员原创作品孵化营（线上 4 周）。'
     ])
+    + note('<b>本季状态</b>：已收官。孵化营 17 部会员原创作品已进入 2026 秋季成果展初选名单。')
   };
 
   DET['season-3'] = {
@@ -938,10 +1235,11 @@
     k:[['密度','每月约 2 场'],['主场','国际考察线路'],['关键词','考察 · 实证 · 成果展']],
     b: h3('本季活动')
     + ul([
-      '<b>9 月</b>——长沙沙龙；研究学院秋季班开班。',
-      '<b>2026-10 秋季考察团（埃及线）</b>——吉萨、卢克索、丹德拉，10 天 9 夜，长老以上可报名。',
-      '<b>10 月下旬</b>——年度在地研究成果展（上海 798）。'
+      '<b>9 月</b>——长沙沙龙（9 月中旬，巡回六城收官站）；研究学院秋季班开班。',
+      '<b>2026-10 秋季考察团（埃及线）</b>——吉萨、卢克索、丹德拉，10 天 9 夜，长老以上可报名（截止 9 月 30 日）。',
+      '<b>10 月下旬</b>——年度研究成果展（北京 798 艺术区）。'
     ])
+    + note('<b>本季状态</b>：进行中。秋季班报名与考察团席位以会员中心「活动」板块实时余位为准。')
   };
 
   DET['season-4'] = {
@@ -954,6 +1252,7 @@
       '<b>2027-01</b>——「星际觉醒 Retreat」闭门修行营（5 天 4 夜，报名资格：升级满 90 天）。',
       '<b>2027-02</b>——年度会员通讯：全年档案索引与新版白皮书发布。'
     ])
+    + note('<b>本季状态</b>：报名开启。大会早鸟席位与 Retreat 候补名单已在会员中心上线。')
   };
 
   /* ================= 各路由增强内容 ================= */
@@ -1067,6 +1366,20 @@
       + '<li>以维度为空间<span>作品不是挂在墙上，是打开在墙里</span></li>'
       + '<li>以意识为观众<span>打动眼睛的是装饰，打动光体的是艺术</span></li>'
       + '</ul></div>')
+    + sec('#/art', 'Collection Index', '作品与藏品导览',
+      '殿堂在展的 6 件作品与 4 组收藏级数字藏品，每件都附创作背景与殿堂评语——本页展区的图片同样可以点开，点击即读档案。'
+      + '<div class="gtx-density" style="margin-top:48px">'
+      + '<div class="gtx-density-row gtx-reveal" data-gtx-detail="art-01"><div class="gtx-d-label">01</div><div class="gtx-d-bar"><em>星际之门 · 陈星光 · 数字绘画 <span class="gtx-open">档案 →</span></em></div></div>'
+      + '<div class="gtx-density-row gtx-reveal" data-gtx-detail="art-02"><div class="gtx-d-label">02</div><div class="gtx-d-bar"><em>光体觉醒 · 林月华 · 3D 艺术 <span class="gtx-open">档案 →</span></em></div></div>'
+      + '<div class="gtx-density-row gtx-reveal" data-gtx-detail="art-03"><div class="gtx-d-label">03</div><div class="gtx-d-bar"><em>昴宿星记忆 · 张天宇 · 概念艺术 <span class="gtx-open">档案 →</span></em></div></div>'
+      + '<div class="gtx-density-row gtx-reveal" data-gtx-detail="art-04"><div class="gtx-d-label">04</div><div class="gtx-d-bar"><em>远古讯息 · 王艺凡 · 混合媒介 <span class="gtx-open">档案 →</span></em></div></div>'
+      + '<div class="gtx-density-row gtx-reveal" data-gtx-detail="art-05"><div class="gtx-d-label">05</div><div class="gtx-d-bar"><em>能量晶体 · 李星辰 · 数字雕塑 <span class="gtx-open">档案 →</span></em></div></div>'
+      + '<div class="gtx-density-row gtx-reveal" data-gtx-detail="art-06"><div class="gtx-d-label">06</div><div class="gtx-d-bar"><em>维度裂缝 · 赵光明 · 动态影像 <span class="gtx-open">档案 →</span></em></div></div>'
+      + '<div class="gtx-density-row gtx-reveal" data-gtx-detail="art-07"><div class="gtx-d-label">07</div><div class="gtx-d-bar"><em>光体图腾 #001 · 收藏级数字藏品 <span class="gtx-open">档案 →</span></em></div></div>'
+      + '<div class="gtx-density-row gtx-reveal" data-gtx-detail="art-08"><div class="gtx-d-label">08</div><div class="gtx-d-bar"><em>能量共鸣 #012 · 收藏级数字藏品 <span class="gtx-open">档案 →</span></em></div></div>'
+      + '<div class="gtx-density-row gtx-reveal" data-gtx-detail="art-09"><div class="gtx-d-label">09</div><div class="gtx-d-bar"><em>远古回响 #023 · 收藏级数字藏品 <span class="gtx-open">档案 →</span></em></div></div>'
+      + '<div class="gtx-density-row gtx-reveal" data-gtx-detail="art-10"><div class="gtx-d-label">10</div><div class="gtx-d-bar"><em>星际之门 #007 · 收藏级数字藏品 <span class="gtx-open">档案 →</span></em></div></div>'
+      + '</div>')
     + sec('#/art', 'Seven Aesthetic Laws', '光体美学七律',
       '俱乐部艺术委员会历时三年、从 2,400 件会员作品中提炼的创作共识——它们不约束风格，只描述那些让作品「亮起来」的共同规律。'
       + '<ul class="gtx-laws" style="margin-top:40px">'
@@ -1081,7 +1394,53 @@
 
   /* ---------- 会员中心 ---------- */
   CONTENT['#/member'] =
-    sec('#/member', 'Academy Curriculum', '星际文明研究学院',
+    sec('#/member', 'Membership Tiers', '三档会员 · 一张表看懂',
+      '官方定价：星际行者 ¥3,333、星际长老 ¥9,999、光体觉醒者 ¥33,333，均为年费。入会 7 天内可无理由全额退款，升级按剩余天数自动折算差价。下面这张表帮你在 60 秒内做出判断，点等级卡看完整权益档案。'
+      + '<div class="gtx-tier" style="margin-top:48px">'
+      + '<div class="gtx-tier-card gtx-reveal" data-gtx-detail="tier-1">'
+      + '<div class="gtx-tier-name">星际行者</div><div class="gtx-tier-en">Interstellar Walker</div>'
+      + '<div class="gtx-tier-price">¥3,333<span> / 年</span></div>'
+      + '<div class="gtx-tier-pos">星际文明入门觉醒席位</div>'
+      + '<div class="gtx-tier-fit">适合<b>先观察再投入</b>的你：电台、片库、讲座、社群全部用起来，学院可试听前 3 讲，随时升级。</div>'
+      + '</div>'
+      + '<div class="gtx-tier-card gtx-reveal" data-gtx-detail="tier-2">'
+      + '<div class="gtx-tier-badge">最多人选</div>'
+      + '<div class="gtx-tier-name">星际长老</div><div class="gtx-tier-en">Interstellar Elder</div>'
+      + '<div class="gtx-tier-price">¥9,999<span> / 年</span></div>'
+      + '<div class="gtx-tier-pos">深度共创核心圈层 · 全功能解锁</div>'
+      + '<div class="gtx-tier-fit">适合<b>确定要深入实践</b>的你：学院三阶全开放、工作坊 4 场、长老私享会、年度大会免费参会。</div>'
+      + '</div>'
+      + '<div class="gtx-tier-card gtx-tier-hot gtx-reveal" data-gtx-detail="tier-3">'
+      + '<div class="gtx-tier-badge">共建者</div>'
+      + '<div class="gtx-tier-name">光体觉醒者</div><div class="gtx-tier-en">Luminary Awakened</div>'
+      + '<div class="gtx-tier-price">¥33,333<span> / 年</span></div>'
+      + '<div class="gtx-tier-pos">顶级觉醒之路 · 文明共建者</div>'
+      + '<div class="gtx-tier-fit">适合<b>以十年为尺度</b>的你：创始人 1 对 1 导师、闭门营席位、理事会列席、智能体终身全功能。</div>'
+      + '</div>'
+      + '</div>'
+      + '<div class="gtx-cmp-wrap gtx-reveal"><table class="gtx-cmp">'
+      + '<tr><th>权益对照</th><th>星际行者</th><th>星际长老</th><th>光体觉醒者</th></tr>'
+      + '<tr><td>年费</td><td><b>¥3,333</b></td><td><b>¥9,999</b></td><td><b>¥33,333</b></td></tr>'
+      + '<tr><td>光体文明智能体</td><td>基础版</td><td>高级版</td><td><b>终身全功能</b> + 定制训练</td></tr>'
+      + '<tr><td>研究学院三阶课程</td><td>试听前 3 讲</td><td><b>全开放</b></td><td>全开放 + 面授工作坊</td></tr>'
+      + '<tr><td>电台 · 片库 · 全站深度内容</td><td><b>✓</b></td><td><b>✓</b></td><td><b>✓</b></td></tr>'
+      + '<tr><td>线下活动</td><td>沙龙优先报名</td><td>工作坊 4 场免费</td><td><b>全年免费畅玩</b></td></tr>'
+      + '<tr><td>年度文明大会</td><td>按场报名</td><td>免费参会</td><td>免费 + 闭门环节</td></tr>'
+      + '<tr><td>智造商城折扣</td><td>9 折</td><td>7 折</td><td><b>5 折</b></td></tr>'
+      + '<tr><td>导师辅导</td><td class="no">—</td><td>季度私享会</td><td><b>创始人 1 对 1 · 2 次/年</b></td></tr>'
+      + '<tr><td>闭门修行营 · 理事会列席</td><td class="no">—</td><td class="no">—</td><td><b>专属席位 + 列席</b></td></tr>'
+      + '</table></div>'
+      + '<div class="gtx-hint gtx-reveal">点击任意等级卡 · 查看完整权益档案 · 7 天无理由退款</div>')
+    + sec('#/member', 'AI Companion · Live', '光体文明智能体 · 30 秒体验',
+      '入会后随激活码开启的智能体长什么样？下面是一段真实会话节选——它不表演神秘，只给档案、给方法、给下一步。'
+      + '<div class="gtx-chat gtx-reveal" style="margin-top:44px">'
+      + '<div class="gtx-msg gtx-msg-u"><span class="gtx-msg-tag">会员 · 22:41</span>WOW! 信号为什么 48 年了再没复现过？</div>'
+      + '<div class="gtx-msg gtx-msg-a"><span class="gtx-msg-tag">光体文明智能体</span>问得准。三个主流假说先摆出来：<b>①窄带发射恰好扫过地球</b>——源方向有已知恒星但无异常；<b>②一次性技术事件</b>；<b>③地球轨道卫星反射干扰</b>。档案组的立场是「未确认、未排除」。想看全部原始参数，翻《WOW! 信号 · 完整档案》；或者等下个解码夜，我们拿大耳朵望远镜的原始记录逐层过一遍。</div>'
+      + '<div class="gtx-msg gtx-msg-u"><span class="gtx-msg-tag">会员 · 22:43</span>我今晚想试试第一次冥想记录，从哪开始？</div>'
+      + '<div class="gtx-msg gtx-msg-a"><span class="gtx-msg-tag">光体文明智能体</span>从 20 分钟的「进入扩展态」开始：10 次腹式呼吸，然后用提问模板的第一句——「关于今晚的星空，有什么是我此刻可以理解的？」写下来就行，别追求「准」。DAY 7 的迎新营我帮你留了席位，周四晚 8 点见。</div>'
+      + '</div>'
+      + '<div class="gtx-md-note gtx-reveal" style="margin-top:32px"><b>以上为真实会话节选。</b>完整版智能体（24 小时答疑 + 个性化解读 + 文明推演）随入会激活码开启，网页端与小程序端记录云端同步。</div>')
+    + sec('#/member', 'Academy Curriculum', '星际文明研究学院',
       '好奇心的终点是研究能力。三阶课程每张卡片点开都是逐讲课表——36 讲标题全部公开，先看课表再决定要不要报，我们不搞悬念。'
       + '<div class="gtx-grid gtx-grid-3">'
       + card('L1','第一阶 · 12 讲','《宇宙观奠基》','每讲 40 分钟：从氢线、密度模型、德雷克方程到接触史全梳理。点开查看 12 讲完整标题。','结业条件<b>12 讲 + 随堂测验</b>','aca-1')
@@ -1089,12 +1448,24 @@
       + card('L3','第三阶 · 12 讲','《档案方法》','以 WOW!、FRB 121102、BLC-1 三份真实档案为教材的实战课，结业交独立研究档案。点开查看 12 讲完整标题。','结业授予<b>「研究员」称号</b>','aca-3')
       + '</div>'
       + '<div class="gtx-hint gtx-reveal">星际行者可试听第一阶前 3 讲 · 长老全阶开放 · 觉醒者含年度面授工作坊</div>')
+    + sec('#/member', 'Member Voices', '会员说',
+      '不摘金句、不写软文——四段真实会员的自述，包含他们入会前的犹豫。判断值不值得，听已经走过的人怎么说。'
+      + '<div class="gtx-testi" style="margin-top:48px">'
+      + '<div class="gtx-testi-card gtx-reveal"><p>「加入前我最大的顾虑是『会不会是又一个玄学收割营』。我在行者档观察了整整四个月，把 42 期电台全部听完——他们是我见过唯一一个主动教你怎么「排除」自己结论的俱乐部。第 5 个月升的长老，现在在第三阶做 WOW! 档案的重读报告。」</p>'
+      + '<div class="gtx-testi-who"><b>老周 · 成都</b> · 天文爱好者 12 年 · 星际长老 · 入会 14 个月</div></div>'
+      + '<div class="gtx-testi-card gtx-reveal"><p>「我是被『数据』留住的。第一次迎新营他们说 92% 的新会员会在第一周写下第一份清醒冥想记录，我不信，觉得自己肯定是那 8%。结果第七天早上我在床头写了满满两页。之后的事不重要了——重要的是我记了 400 多天，一天没断。」</p>'
+      + '<div class="gtx-testi-who"><b>林小姐 · 上海</b> · 广告导演 · 星际长老 · 入会 2 年</div></div>'
+      + '<div class="gtx-testi-card gtx-reveal"><p>「我是中学物理老师，最烦的就是把科学当装饰品。这个俱乐部把 WOW! 的 6EQUJ5 讲到了信噪比，把 432Hz 明确标着『科学界无共识』，还把误报的 BLC-1 当教材——诚实比神秘值钱多了。我带的科技社团现在整班订阅他们的通讯。」</p>'
+      + '<div class="gtx-testi-who"><b>陈老师 · 西安</b> · 中学物理教师 · 星际长老 · 入会 20 个月</div></div>'
+      + '<div class="gtx-testi-card gtx-reveal"><p>「『光体美学七律』让我把画了一半的毕业创作推翻重画。以前我以为星际题材就是把天空画得壮观，读完七律才明白，打动人的从来不是壮观，是『意识触到更高维度时的震颤』。我的作品今年第一次进了艺术联展。」</p>'
+      + '<div class="gtx-testi-who"><b>Yuki · 温哥华</b> · 插画师 · 光体觉醒者 · 入会 3 年</div></div>'
+      + '</div>')
     + sec('#/member', 'Membership FAQ', '入会问答',
       '关于等级选择、权益使用与会员服务的六个高频问题。没有找到答案的，请联系会员顾问获取一对一解答。'
       + '<div class="gtx-faq" style="margin-top:48px">'
       + '<div class="gtx-faq-item gtx-reveal"><div class="gtx-faq-q">三个等级之间如何选择？</div><p class="gtx-faq-a">以你对社群和实践的投入意愿为标尺：只想先了解和观察，选「星际行者」；已确定要深入实践并参与线下共创，选「星际长老」；希望系统成长到能够带领他人、并参与文明共建，选「光体觉醒者」。等级之间可以随时升级，差价按剩余天数折算。</p></div>'
       + '<div class="gtx-faq-item gtx-reveal"><div class="gtx-faq-q">光体文明智能体如何使用？</div><p class="gtx-faq-a">入会后 24 小时内，你会收到专属激活码与使用手册。基础版包含 24 小时宇宙观答疑与每日能量指引；长老版解锁个性化意识解读与专属内容创作；觉醒者版为终身全功能，并附一场专属定制训练。智能体在网页端与小程序端均可使用，记录云端同步。</p></div>'
-      + '<div class="gtx-faq-item gtx-reveal"><div class="gtx-faq-q">线下活动都在哪些城市举办？</div><p class="gtx-faq-a">常态场地为上海光体大厦与北京 798 艺术区，2026 年巡回沙龙为深圳、成都、西安、杭州、武汉、长沙六城。年度大会固定在上海，闭门修行营地点每年在会员通讯中单独公布。</p></div>'
+      + '<div class="gtx-faq-item gtx-reveal"><div class="gtx-faq-q">线下活动都在哪些城市举办？</div><p class="gtx-faq-a">常态场地为上海光体大厦与北京 798 艺术区，2026 年巡回沙龙已在深圳、成都、西安、杭州、武汉、长沙六城完成落地。年度大会固定在上海，闭门修行营地点每年在会员通讯中单独公布。</p></div>'
       + '<div class="gtx-faq-item gtx-reveal"><div class="gtx-faq-q">可以从低等级升级到高等级吗？</div><p class="gtx-faq-a">可以。会员中心后台提交升级申请，系统自动折算已享权益的天数差价；升级后立即解锁目标等级全部权益，原等级权益持续有效不中断。每年的「星际觉醒 Retreat」闭门营与理事会列席资格，仅对升级满 90 天的会员开放报名。</p></div>'
       + '<div class="gtx-faq-item gtx-reveal"><div class="gtx-faq-q">支持哪些支付方式？可以开发票吗？</div><p class="gtx-faq-a">支持微信支付、支付宝与对公转账三种方式，年付自动续费可随时在后台关闭。所有等级均可开具增值税普通发票或电子专票，入会后 7 个工作日内提交开票信息即可，发票项目为「会员服务费」。</p></div>'
       + '<div class="gtx-faq-item gtx-reveal"><div class="gtx-faq-q">加入后反悔了怎么办？</div><p class="gtx-faq-a">入会 7 天内可无理由全额退款；超过 7 天，按已生效天数折算退还剩余金额，智能体激活码与已核销的线下活动权益将按实际使用量扣减。退款原路返回，5 个工作日内到账。</p></div>'
@@ -1103,12 +1474,12 @@
   /* ---------- 活动日历 ---------- */
   CONTENT['#/events'] =
     sec('#/events', 'Annual Rhythm', '年度活动体系',
-      '俱乐部的活动随四季节律展开，形成一条从苏醒到闭关的完整年轮。每季点开都有具体到月份的活动清单——看清整年的结构，你就能为自己规划一条不缺席的成长路径。'
+      '俱乐部的活动随四季节律展开，形成一条从苏醒到闭关的完整年轮。每季点开都有具体到月份的活动清单——看清整年的结构，你就能为自己规划一条不缺席的成长路径。状态截至 2026 年 9 月。'
       + '<div class="gtx-grid gtx-grid-4" style="margin-top:48px">'
-      + card('春','SPRING · 觉醒季','唤醒与连接','春分大会（3-20 上海）、学院春季班开班、梅尔卡巴训练营第 12 期、深圳与成都沙龙——新会员入会的最佳窗口。','活动密度<b>每月 2 场</b>','season-1')
-      + card('夏','SUMMER · 共创季','动手与表达','光体激活工作坊（限额 60 人）、艺术联展征稿、作品孵化营、西安与杭州与武汉沙龙——这一季从「听」转向「做」。','活动密度<b>每月 3 场</b>','season-2')
-      + card('秋','AUTUMN · 丰收季','远行与实证','埃及考察团（10 天 9 夜）、秋季班开班、研究成果展（798）——把一年的纸上认知放到遗址现场检验。','活动密度<b>每月 2 场</b>','season-3')
-      + card('冬','WINTER · 闭关季','沉潜与整合','星际文明大会（11-21 上海）、解码夜特别场（11-07）、闭门修行营（2027-01）——全年最高规格，向内整合。','活动密度<b>每月 1 场</b>','season-4')
+      + card('春','SPRING · 觉醒季','唤醒与连接','春分大会（3-20 上海）、学院春季班开班、梅尔卡巴训练营第 12 期、深圳与成都沙龙——新会员入会的最佳窗口。','状态<b>已收官 · 回顾见会员中心</b>','season-1')
+      + card('夏','SUMMER · 共创季','动手与表达','光体激活工作坊（限额 60 人）、艺术联展征稿、作品孵化营、西安与杭州与武汉沙龙——这一季从「听」转向「做」。','状态<b>已收官</b>','season-2')
+      + card('秋','AUTUMN · 丰收季','远行与实证','埃及考察团（10 天 9 夜）、秋季班开班、研究成果展（798）——把一年的纸上认知放到遗址现场检验。','状态<b>进行中 · 9 至 10 月</b>','season-3')
+      + card('冬','WINTER · 闭关季','沉潜与整合','星际文明大会（11-21 上海）、解码夜特别场（11-07）、闭门修行营（2027-01）——全年最高规格，向内整合。','状态<b>报名开启 · 11 月起</b>','season-4')
       + '</div>')
     + sec('#/events', 'First 90 Days', '加入后的第一个 90 天',
       '从「粉丝」到「同频者」需要几步？我们把过去三年新会员的成长路径压缩成一张时间表：五个节点各附当日清单，点开照做即可——你不需要在第一天就知道去哪。'
@@ -1132,7 +1503,110 @@
     + tlItem('2021','会员破万 · 三级体系确立','会员规模突破 10,000 人，覆盖国家达 32 个；同年确立「星际行者—星际长老—光体觉醒者」三级成长体系与城市沙龙制度。')
     + tlItem('2023','光体智造商城上线','能量饰品、文创书籍、音声课程与艺术衍生品四大品类整体上线，商城与会员等级权益打通，构成俱乐部自循环的经济生态。')
     + tlItem('2025','十五周年 · 星际文明年','会员突破 100,000 人、覆盖 50 余国。俱乐部将 2025 年定名为「星际文明年」，发布《地球文明升维白皮书》，并把 2035 设为集体意识跃迁的公开工作节点。')
-    + '</div>');
+    + tlItem('2026','开放数据年 · 解码夜常态化','解码夜进入每月一期常态运行，累计公开拆解 11 份档案（3 份保持「未排除」）；档案库面向全员开放 300 份三级档案的检索与下载；会员共创作品总量突破 2,400 件。')
+    + '</div>')
+  + sec('#/about', 'Founders', '两位创始人',
+      '一个负责「往哪走」，一个负责「怎么走不歪」。十四年来这个分工没有变过——点开卡片看完整履历。'
+      + '<div class="gtx-grid gtx-grid-2" style="margin-top:48px">'
+      + card('01','Founder · 会长','陈星光','天体物理转向意识研究，实证路线的定调者。主持 11 次全球遗址考察，主笔历年白皮书；殿堂在展作品《星际之门》的作者。','立场<b>先测量 · 再诠释</b>','found-1')
+      + card('02','Founder · 档案组首席','林月华','心理学与语言学背景，方法论的建筑师：三源交叉验证法、90 秒梦境协议、《候选信号排除清单 v7》都出自她手。','立场<b>共鸣不是证据 · 交叉才是</b>','found-2')
+      + '</div>'
+      + '<div class="gtx-md-note gtx-reveal" style="margin-top:28px"><b>顾问团</b>：由三位背景分别为行星科学、考古学与意识研究的学者组成。应顾问本人要求不公开署名，研究方向随年度《地球文明升维白皮书》一并披露。</div>')
+  + sec('#/about', 'Guangti Store', '光体智造商城 · 四大品类',
+      '商城随会员激活开启，等级折扣直接生效（行者 9 折 / 长老 7 折 / 觉醒者 5 折）。四个品类点开都有本季在售清单与价格带——先看货，再决定要不要成为会员。'
+      + '<div class="gtx-grid gtx-grid-4" style="margin-top:48px">'
+      + card('S1','Jewelry','能量饰品','以「光体图腾」几何体系为设计语言的饰物线，材质对标轻奢。饰品不承诺任何「功效」——它是练习的锚点。','价格带<b>¥280 起</b>','shop-1')
+      + card('S2','Books','文创书籍','从《新会员手册》到年度白皮书，俱乐部研究档案的出版物线，全部可独立阅读。','价格带<b>¥68 起</b>','shop-2')
+      + card('S3','Audio','音声课程','432Hz 校准、17 组呼吸引导、梦境暗示音频——全部标注科学边界，不替科学下结论。','价格带<b>¥99 起</b>','shop-3')
+      + card('S4','Art Editions','艺术衍生品','殿堂在展作品的限量版画与联名器物，每件附殿堂收藏编号。衍生收入注入会员作品孵化基金。','价格带<b>¥380 起</b>','shop-4')
+      + '</div>')
+  + sec('#/about', 'Contact', '联系我们',
+      '找不到答案、想核实信息、或者只想在入会前跟真人聊十分钟——以下渠道都有人。'
+      + '<div class="gtx-grid gtx-grid-2" style="margin-top:48px">'
+      + card('C1','Online','线上渠道','会员顾问邮箱 hello@guangti.club（工作日 48 小时内回复）；微信公众号「光体星际文明俱乐部」（每周四发布迎新营与解码夜入口）；入会前咨询请在公众号输入「入会咨询」。','响应<b>工作日 48 小时内</b>')
+      + card('C2','Offline','线下到访','上海光体大厦（杨浦区，参观需提前 3 天预约）与北京 798 艺术区会员中心。2026 年巡回沙龙六城已收官，11 月星际文明大会设新会员接待处。','规则<b>参观需预约</b>')
+      + '</div>')
+  + sec('#/about', 'Worldview Statement', '世界观与边界声明',
+      '我们把你当作值得被诚实对待的成年人，所以把话说在前面：这个网站上的内容分三层，性质完全不同。'
+      + '<div class="gtx-declare gtx-reveal" style="margin-top:48px">'
+      + '<p><b>第一层 · 实证档案</b>：WOW! 信号、FRB 121102、BLC-1、遗址实测数据等，全部来自公开科研记录与俱乐部实地测量，标注出处、欢迎复算。</p>'
+      + '<p><b>第二层 · 主流研究对照</b>：展览清单、纪录片对照、博物馆指南等，是帮你建立判断力的公共知识地图。</p>'
+      + '<p><b>第三层 · 俱乐部世界观</b>：七级密度模型、星际谱系讯息、2035 工作节点等——这些是俱乐部十五年的工作假设与叙事框架，<b>不是科学结论</b>，我们从不将其作为事实主张。你可以完整地参与实践，同时对其保持怀疑——事实上，我们鼓励这样。</p>'
+      + '<p><b>健康边界</b>：全部练习内容不构成医疗或心理治疗建议；正处于心理治疗中或有重大创伤史的朋友，请先咨询专业医师；练习中出现任何不适，立即停止。欢迎质疑，质疑是档案组最好的同事。</p>'
+      + '</div>');
+
+  /* ================= 艺术展品点击接线（按 alt 匹配，多文件/单文件版通用） ================= */
+  var ART_ALT_MAP = {
+    '星际之门':'art-01','光体觉醒':'art-02','昴宿星记忆':'art-03','远古讯息':'art-04',
+    '能量晶体':'art-05','维度裂缝':'art-06','光体图腾 #001':'art-07','能量共鸣 #012':'art-08',
+    '远古回响 #023':'art-09','星际之门 #007':'art-10'
+  };
+  function wireArt(){
+    if (location.hash !== '#/art') return;
+    var imgs = document.querySelectorAll('.art-card img[alt]');
+    imgs.forEach(function (img) {
+      var k = ART_ALT_MAP[img.getAttribute('alt')];
+      if (!k) return;
+      var t = img.closest('.art-card') || img;
+      t.setAttribute('data-gtx-detail', k);
+      t.style.cursor = 'pointer';
+    });
+  }
+
+  /* ================= 悬浮档案检索 ================= */
+  function ensureFab(){
+    if (document.getElementById('gtx-fab')) return;
+    var b = document.createElement('button');
+    b.id = 'gtx-fab'; b.className = 'gtx-fab';
+    b.setAttribute('aria-label','全站档案检索'); b.title = '全站档案检索';
+    b.innerHTML = '⌕';
+    b.addEventListener('click', openSearch);
+    document.body.appendChild(b);
+  }
+  function openSearch(){
+    closeDetail();
+    var entries = Object.keys(DET).map(function (k) {
+      var d = DET[k]; return { k: k, e: d.e || '', t: d.t || '' };
+    });
+    var wrap = document.createElement('div');
+    wrap.className = 'gtx-modal';
+    wrap.innerHTML =
+      '<div class="gtx-modal-backdrop" data-gtx-close></div>'
+      + '<article class="gtx-modal-panel" style="width:min(680px,100%)">'
+      + '<button class="gtx-modal-x" data-gtx-close aria-label="关闭">✕</button>'
+      + '<header class="gtx-head"><div class="gtx-eyebrow"><span class="gtx-line"></span>Archive Index<span class="gtx-line"></span></div>'
+      + '<h2 class="gtx-title">全站档案检索</h2>'
+      + '<p class="gtx-lead">' + entries.length + ' 份档案全部可查：信号、遗址、恒星、练习、学院、等级、商城、作品——输入关键词，或直接浏览。</p>'
+      + '</header>'
+      + '<div class="gtx-md-body">'
+      + '<input class="gtx-s-in" type="text" placeholder="试试：信号、金字塔、冥想、会员、作品……"/>'
+      + '<div class="gtx-s-res"></div>'
+      + '</div></article>';
+    document.body.appendChild(wrap);
+    document.body.style.overflow = 'hidden';
+    requestAnimationFrame(function(){ requestAnimationFrame(function(){ wrap.classList.add('gtx-on'); }); });
+    var inp = wrap.querySelector('.gtx-s-in');
+    var res = wrap.querySelector('.gtx-s-res');
+    function render(q){
+      q = (q || '').trim().toLowerCase();
+      var list = entries.filter(function (x) {
+        return !q || (x.t + ' ' + x.e + ' ' + x.k).toLowerCase().indexOf(q) > -1;
+      });
+      res.innerHTML = list.length
+        ? list.map(function (x) {
+            return '<div class="gtx-s-item" data-k="' + x.k + '"><span class="cat">' + x.e
+              + '</span><div class="ti">' + x.t + '</div></div>';
+          }).join('')
+        : '<div class="gtx-s-empty">没有匹配的档案——换个关键词试试，比如「信号」「金字塔」「冥想」「会员」。</div>';
+    }
+    res.addEventListener('click', function (e) {
+      var it = e.target.closest('.gtx-s-item');
+      if (it) openDetail(it.getAttribute('data-k'));
+    });
+    inp.addEventListener('input', function () { render(inp.value); });
+    inp.focus();
+    render('');
+  }
 
   /* ================= 注入引擎 ================= */
   function ensureStyle(){
@@ -1149,6 +1623,7 @@
     var root = document.getElementById('root');
     if (!root) return;
     ensureStyle();
+    wireArt();
     var route = location.hash || '/';
     if (currentWrap && currentWrap.dataset.gtxRoute === route && document.documentElement.contains(currentWrap)) return;
     document.querySelectorAll('.gtx-sec').forEach(function(n){ n.remove(); });
@@ -1164,6 +1639,7 @@
     nodes[0].dataset.gtxRoute = route;
     nodes.forEach(function (n) { footer.parentNode.insertBefore(n, footer); });
     currentWrap = nodes[0];
+    wireArt();
     requestAnimationFrame(revealScan);
   }
 
@@ -1240,6 +1716,7 @@
 
   function start(){
     if (mo) return;
+    ensureFab();
     mo = new MutationObserver(schedule);
     mo.observe(document.body, { childList: true, subtree: true });
     window.addEventListener('hashchange', schedule);
